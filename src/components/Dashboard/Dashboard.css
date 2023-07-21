@@ -1,0 +1,63 @@
+.chart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 0 20rem;
+}
+
+.line-chart h3{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: rgb(0, 170, 255);
+}
+
+@media screen and (max-width: 490px){
+    .chart{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        margin: 2rem auto;
+    }
+    .line-chart h3{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        color: rgb(0, 170, 255);
+    }
+}
+
+@media screen and (min-width: 776px){
+    .chart{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-gap: 10px; */
+        margin: 0 2rem;
+    }
+    
+    .line-chart h3{
+        text-align: center;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        color: rgb(0, 170, 255);
+    }
+}
+@media screen and (min-width: 992px){
+    .chart{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 0 30rem;
+    }
+    
+    .line-chart h3{
+        text-align: center;
+        margin-left: -5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        color: rgb(0, 170, 255);
+    }
+}
