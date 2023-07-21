@@ -17,11 +17,11 @@
 ## Installation
 
 ```bash
-git clone https://github.com/kiron0/09-Assignment-product-analysis-website-kiron0.git
+git clone https://github.com/developerkhaled1/product-analysis.git
 ```
 
 ```bash
-cd 09-Assignment-product-analysis-website-kiron0
+cd developerkhaled1/product-analysis
 ```
 
 ```bash
